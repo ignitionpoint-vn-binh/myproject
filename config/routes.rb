@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/contact', to: 'static_pages#contact'
   root 'application#hello'
   # For detailson the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :users
 end
